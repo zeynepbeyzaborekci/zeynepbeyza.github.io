@@ -1,0 +1,648 @@
+---
+title: "Final Report"
+author: "Perseverance"
+date: "24 06 2021"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+## PERSEVERANCE
+Group Member:
+Serhat Beyaz KÖROĞLU
+Zeynep Beyza BÖREKÇİ
+Büşra GÖRER
+
+
+## CONTENTS
+
+
+• Project Description
+  • Project goal & social problem addressed
+• Project data 
+• Actions, Results and Discussion,Conclusion
+• url address of the project
+• References
+• References
+
+---
+
+
+##	Project Description:
+
+
+### PROJECT GOALS & SOCIAL PROBLEM
+
+On the efficiency of university choices;
+
+When our perceptions are not yet developed, as a young child, the adventure of educational life begins with an apron on us and a heavy bag on our backs. For many years, we spend the most valuable time of our lives on this adventure. Over the years, we realize that the meaning of the word ‘education’ will be exactly what we call ‘life’ in the future.
+
+There is a huge economic sector behind education, which is a reality that affects life so much in this long-term journey. On this journey from childhood to the middle of youth, there are not only millions of students but also their families. Huge sums of money are spent on this highly hopeful reality. These children are becoming a part of this industry, which is expressed in billions of dollars. There are huge costs in pursuing their hopes and lives.
+
+Some families have difficulty in making these expenses, some children do not have families. Undoubtedly, the most important moment of this road, which has been reached with a countless difficulties, is the step of entering the university.
+
+As Perseverance Team, we want to focus on education. We want the money spent in this great industry to pay off. We want efforts and hope to turn into lives.
+
+A leading career site of this sector in Turkey, examined the 10-year movements of employers and compiled and shared meaningful data. We immediately realized that these data are very important and the following question came to mind:
+
+"Can students make a better choice?" 
+
+Students do not have sufficient knowledge and equipment when making their university choices. Even worse, parents are simply ignorant of what is true. This creates anxiety and exam anxiety continues in the preference period.
+
+The basic criterion when making a choice is determined according to where the students who have had that score in the past years preferred. The perception that ‘my score should not be burned’ directs students to departments they do not want, and moreover, to wrong choices. The anxiety in the preference period is again encountered when students graduate: Will I be able to find a job?
+
+The "Employer Interest Index" published in 2020 by Turkey's leading employment platform Kariyer.net, sheds light on exactly this problem. In this study, Kariyer.net examined 200 million transactions of 486 thousand employer users who searched for their new employees in the last 10 years. Later, it tried to make sense of these movements by matching the information in the resumes of the candidates. It determined the employment rate of the graduates in the first 2 years following their university graduation and the amount of interest the employers have for which university or department graduates. In the light of this information, it created 3 different rankings.
+
+In the light of these resulting data, we will evaluate the accuracy of students' preferences while entering the university. We will find an answer to the question of whether a better choice could be made when evaluating students' university preferences. In the future, we will help students to make the right choice with this unique work.
+
+
+# Project data: 
+
+- [Kariyer.net Employer Interest Index](https://www.kariyer.net/en-iyi-universiteler/hakkinda){target="_blank"}
+- [ÖSYM Placement Results](http://yks.ee.hacettepe.edu.tr){target="_blank"}
+
+# Actions:
+
+We have 2 different behaviors: Students' Choices and Employers' Choices 
+
+First of all, we discussed these two behaviors and evaluated them separately.
+
+Important Note: Since Kariyet.net makes this evaluation in the light of certain limitations, we have limited the students' preferences in certain standards in order to ensure the consistency of the data. In addition to these, we made additional limitations to make the study meaningful. 
+
+	1. Employers’ Choices
+We obtained the employer preferences from the data made by Kariyer.net. The “Employer Interest Index” published by Turkey's leading employment platform Kariyer.net in 2020 sheds light on this problem. In this study, Kariyer.net analyzed 200 million transactions of 486,000 employer users who looking for new employees in the last 10 years. It then tried to make sense of these movements by matching them with the information on the candidates' resumes. It determined the rate of employment of graduates in the first 2 years following university graduation, and which university or department graduates were more frequently interested in by employers. 
+	1.1.  Employer Interest Index
+The standards that Kariyet.net takes into account when determining the index:
+
+•	Certain criteria were determined for university graduates who are among Kariyer.net members, and the data of 2 million people who fulfill these criteria were analyzed in the study.
+•	In the study, 200 million activities of 88 thousand employer users out of 486 thousand employers who were members of Kariyer.net and used Kariyer.net between 2009-2019 were examined.
+
+Excluded from the data considered in the study:
+
+•	Within the scope of the study, the university and department from which the graduate candidates graduated at the undergraduate level,
+•	The first section that double major candidates add to their career.net resume,
+•	The most up-to-date CVs of candidates with more than one CV were taken into account.
+
+Groups not included in the study: 
+
+•	Candidates with open education and associate degree degrees: In order to make comparisons and results more reliable, open and distance education graduates with education levels other than undergraduate are excluded.
+•	Candidates who do not have a graduation date on their resume: Candidates who do not include this information in their profile, as the absence of a graduation date will mislead the calculations of the relevant semester, are excluded from the study. 
+
+•	Candidates who graduated from the departments of Medicine and Dentistry: In the study, employment status within 2 years following university graduation was examined. Since the students who graduated from the departments of medicine followed a different path by taking the specialty exams within 2 years after graduation, these occupational groups were excluded.
+
+•	Candidates who graduated from closed universities and departments: Since this study aims to provide information about the current situation to the individuals who will enter the university, the data of the candidates who graduated from the closed universities and departments are excluded. 
+
+•	Candidates who graduated from universities abroad: Since the study was conducted for individuals who will enter universities in Turkey, candidates who graduated from universities abroad were excluded. 
+
+•	Candidates who graduated from departments or universities with less than 60 graduates: These universities and departments were excluded in case the universities and/or departments with a small number of graduates could affect the results dramatically.
+
+	1.2. Outcomes of Employer Preferences
+1.	Location: Employers prefer students from universities in their region.
+2.	Foreign Language: In addition to English as a foreign language, they prefer universities that provide education in French and German.
+3.	They prefer well-established universities.
+
+2. Students' Choices
+Important Note: Since Kariyet.net makes this evaluation in the light of certain limitations, we have limited the students' preferences in certain standards in order to ensure the consistency of the data. In addition to these, we made additional limitations for the study to be meaningful.
+We evaluated the university preferences of the students. In the light of these data, we created the "Student Interest Index". This is how we did it:
+•	We pulled the data of the university preference results of the students from the internet.
+•	We divided it into universities one by one, and determined the student interest index of each university.
+•	We divided it into sections one by one, and determined the student interest index of each section.
+
+	2.1.  Student Interest Index
+
+	Groups not included in the study:
+•	Candidates with open education and associate degree degrees: In order to make comparisons and results more reliable, open and distance education graduates with education levels other than undergraduate are excluded.
+•	Students who prefer Medicine and Dentistry departments.
+•	Interest index of departments: Since most popular departments are in universities, we have taken into account the top 25 rankings of that department in order not to decrease the index average and to get a more accurate value.
+
+In addition to these, in order to obtain meaningful data:
+•	We have identified 23 universities that are at the forefront
+•	We have identified 15 departments that are at the forefront
+
+We evaluated the data on this criteria.
+
+	2.2. Outcomes of Student Preferences
+•	Location: Students choose their location between east-west options. They prefer universities in the West and South.
+•	Foreign Language: English foreign language education has a high importance in student preferences. They also prefer universities that offer education in French and German.
+•	They prefer well-established and prestigious universities.
+
+
+3. Comparison of Preferences
+
+By comparing Employer Preferences and Student preferences, similarities and differences are revealed. By comparing the two data, it is aimed to help students make more effective university choices.
+	3.1. Outcomes of Comparison of Preferences
+•	Location: The most important factor is the preference of employers and the preference of students in the regions closer to them. It was determined that the students did not make a choice in the light of this information in their preferences. Especially since Istanbul hosts 28.15% of the companies in Turkey, it is a great advantage to study at a university in this city.
+	Workplace Rates:
+1-	Istanbul:		28.15
+2-	Ankara:		7.74
+3-	Izmir:		7.00
+4-	Bursa:		4.16
+5-	Antalya:		3.86
+6-	Izmit:		2.49
+•	Foreign Language: We said that employers are looking for a foreign language. Students prefer foreign language education at least as much as employers. In addition to English, French and German languages also bring students to the fore.
+•	Well-established and prestigious Universities are preferred by both parties.
+
+## url address of the project
+
+[url address of the project](https://koroglubeyaz.github.io/Perseverance.html){target="_blank"}
+
+## CONCLUSION
+
+Finally, and most importantly, we compared the “Employer Interest Index” with the “Student Interest Index”. We have listed the departments and universities in order to show a more efficient university and department preference.
+
+Before the presentation, we share some data reflecting the purpose of the project.
+You can find more detailed data in the presentation file. 
+
+![](images/01-bolum-ogrenci.png)
+![](images/02-bolum-isveren.png)
+![](images/03-uni-ogrenci.png)
+![](images/04-uni-isveren.png)
+
+
+
+
+## REFERENCES
+
+- https://bookdown.org/ugurdarr/cubukgrafigi/
+- https://r338.github.io/ab-2017/dokumanlar/dokuman_ggplot2.html
+- https://www.veribilimiokulu.com/r-ile-veri-gorsellestirme/
+- https://bookdown.org/content/2096/temel-r.html
+
+
+
+
+
+## APPENDIX
+
+```{r setup, include=FALSE}
+
+library(readr)
+library(stringr)
+library(readxl)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(gapminder)
+library(hrbrthemes)
+library(viridis)
+library(plotrix)
+library(writexl)
+```
+
+
+```{r}
+ankara <- read_excel("database/uni/ankara.xlsx")
+ankara <- ankara[-c(11,13,18,20,28:30,58,59,104,105,122:126),c(3,5,10)]
+ogrenci_ankara <- mean(ankara$`En Düşük Puan`)
+ilgi_ankara<- c("ANKARA UNIVERSITESI", ogrenci_ankara)
+```
+
+
+```{r}
+bahcesehir<- read_excel("database/uni/bahcesehir.xlsx")
+bahcesehir<- bahcesehir[,c(3,5,10)]
+ogrenci_bahcesehir<- mean((bahcesehir$`En Düşük Puan`))
+ilgi_bahcesehir<- c("BAHCESEHIR UNIVERSITESI", ogrenci_bahcesehir)
+ilgi_uni<- rbind(ilgi_ankara, ilgi_bahcesehir)
+```
+
+
+```{r}
+bilgi<- read_excel("database/uni/bilgi.xlsx")
+bilgi<- bilgi[,c(3,5,10)]
+ogrenci_bilgi<-mean(bilgi$`En Düşük Puan`)
+ilgi_bilgi<- c("ISTANBUL BILGI UNIVERSITESI", ogrenci_bilgi)
+```
+
+
+```{r}
+bilkent <- read_excel("database/uni/bilkent.xlsx")
+bilkent<- bilkent[,c(3,5,10)]
+ogrenci_bilkent<- mean(bilkent$`En Düşük Puan`)
+ilgi_bilkent<- c("IHSAN DOGRAMACI BILKENT UNIVERSITESI", ogrenci_bilkent)
+```
+
+
+```{r}
+bogazici <- read_excel("database/uni/bogazici.xlsx")
+bogazici<- bogazici[-c(30,31,36),c(3,5,10)]
+ogrenci_bogazici<- mean(bogazici$`En Düşük Puan`)
+ilgi_bogazici<- c("BOGAZICI UNIVERSITESI", ogrenci_bogazici)
+```
+
+
+```{r}
+dokuzeylul <- read_excel("database/uni/dokuzeylul.xlsx")
+dokuzeylul<- dokuzeylul[-c(8,27:30,34,36,38:40,43,44,53,62,97,96,98:100),c(3,5,10)]
+ogrenci_dokuzeylul<- mean(dokuzeylul$`En Düşük Puan`)
+ilgi_dokuzeylul<- c("DOKUZ EYLUL UNIVERSITESI", ogrenci_dokuzeylul)
+```
+
+
+```{r}
+ege <- read_excel("database/uni/ege.xlsx")
+ege<- ege[-c(12,16,20,36,44,61:64),c(3,5,10)]
+ogrenci_ege<- mean(ege$`En Düşük Puan`)
+ilgi_ege<- c("EGE UNIVERSITESI", ogrenci_ege)
+```
+
+
+```{r}
+galatasaray <- read_excel("database/uni/galatasaray.xlsx")
+galatasaray<- galatasaray[,c(3,5,10)]
+ogrenci_galatasaray<- mean(galatasaray$`En Düşük Puan`)
+ilgi_galatasaray<- c("GALATASARAY UNIVERSITESI", ogrenci_galatasaray)
+```
+
+
+```{r}
+gazi <- read_excel("database/uni/gazi.xlsx")
+gazi<- gazi[-c(2,14,38,42,52:56,61,63,64),c(3,5,10)]
+ogrenci_gazi<- mean(gazi$`En Düşük Puan`)
+ilgi_gazi<- c("GAZI UNIVERSITESI", ogrenci_gazi)
+```
+
+
+```{r}
+gyte <- read_excel("database/uni/gyte.xlsx")
+gyte<- gyte[,c(3,5,10)]
+ogrenci_gyte<- mean(gyte$`En Düşük Puan`)
+ilgi_gyte<- c("GEBZE TEKNIK UNIVERSITESI", ogrenci_gyte)
+```
+
+
+```{r}
+hacettepe <- read_excel("database/uni/hacettepe.xlsx")
+hacettepe<- hacettepe[-c(12,59,71:73),c(3,5,10)]
+ogrenci_hacettepe<- mean(hacettepe$`En Düşük Puan`)
+ilgi_hacettepe<- c("HACETTEPE UNIVERSITESI", ogrenci_hacettepe)
+```
+
+
+```{r}
+itu <- read_excel("database/uni/itu.xlsx")
+itu<- itu[-c(2,3,43,48,52:63),c(3,5,10)]
+ogrenci_itu<- mean(itu$`En Düşük Puan`)
+ilgi_itu<- c("ISTANBUL TEKNIK UNIVERSITESI", ogrenci_itu)
+```
+
+
+```{r}
+iu <- read_excel("database/uni/iu.xlsx")
+iu<- iu[-c(23,24,26,53:68,71,85,93,99:103,104,141:144),c(3,5,10)]
+ogrenci_iu<- 363.2045
+ilgi_iu<- c("ISTANBUL UNIVERSITESI", ogrenci_iu  )
+```
+85,93,99:103,104,141:144)
+
+```{r}
+iyte <- read_excel("database/uni/iyte.xlsx")
+iyte<- iyte[-c(17,20),c(3,5,10)]
+ogrenci_iyte<- mean(iyte$`En Düşük Puan`)
+ilgi_iyte<- c("IZMIR YUKSEK TEKNOLOJI ENSTITUSU", ogrenci_iyte)
+
+
+```
+
+
+```{r}
+koc <- read_excel("database/uni/koc.xlsx")
+koc<- koc[,c(3,5,10)]
+ogrenci_koc<- mean(koc$`En Düşük Puan`)
+ilgi_koc<- c("KOC UNIVERSITESI", ogrenci_koc)
+```
+
+
+```{r}
+kocaeli <- read_excel("database/uni/kocaeli.xlsx")
+kocaeli<- kocaeli[-c(8,14,18,19,21,23,24,26,27,30,34,44,47,57,59,62,66,67,68,80,81),c(3,5,10)]
+ogrenci_kocaeli<- mean(kocaeli$`En Düşük Puan`)
+ilgi_kocaeli<- c("KOCAELI UNIVERSITESI",ogrenci_kocaeli )
+```
+
+
+```{r}
+marmara <- read_excel("database/uni/marmara.xlsx")
+marmara<- marmara[-c(9,25,26,36:38,63,66,67,69,70,79,81,91),c(3,5,10)]
+ogrenci_marmara<- mean(marmara$`En Düşük Puan`)
+ilgi_marmara<- c("MARMARA UNIVERSITESI", ogrenci_marmara)
+```
+
+
+```{r}
+odtu <- read_excel("database/uni/odtu.xlsx")
+odtu<- odtu[-c(2,3,11:19,36,49:56),c(3,5,10)]
+ogrenci_odtu<- mean(odtu$`En Düşük Puan`)
+ilgi_odtu<- c("ORTA DOGU TEKNIK UNIVERSITESI", ogrenci_odtu)
+```
+
+
+```{r}
+ozyegin <- read_excel("database/uni/ozyegin.xlsx")
+ozyegin<- ozyegin[,c(3,5,10)]
+ogrenci_ozyegin<- mean(ozyegin$`En Düşük Puan`)
+ilgi_ozyegin<- c("OZYEGIN UNIVERSITESI", ogrenci_ozyegin )
+```
+
+
+```{r}
+sabanci <- read_excel("database/uni/sabanci.xlsx")
+sabanci <- sabanci[,c(3,5,10)]
+ogrenci_sabanci <-mean(sabanci$`En Düşük Puan`)
+ilgi_sabanci <- c("SABANCI UNIVERSITESI", ogrenci_sabanci)
+```
+
+
+```{r}
+turkalman <- read_excel("database/uni/turkalman.xlsx")
+turkalman<- turkalman[,c(3,5,10)]
+ogrenci_turkalman <-mean(turkalman$`En Düşük Puan`)
+ilgi_turkalman<- c("TURK-ALMAN UNIVERSITESI", ogrenci_turkalman)
+```
+
+
+```{r}
+uludag <- read_excel("database/uni/uludag.xlsx")
+uludag <- uludag[-c(15, 16, 22, 23, 25, 26, 29, 32, 40, 42, 61, 68, 71, 75, 76),c(3,5,10)]
+ogrenci_uludag <- mean(uludag$`En Düşük Puan`)
+ilgi_uludag<- c("ULUDAG UNIVERSITESI", ogrenci_uludag)
+```
+
+
+```{r}
+yildiz <- read_excel("database/uni/yildiz.xlsx")
+yildiz<- yildiz[-c(35, 51, 52),c(3,5,10)]
+ogrenci_yildiz <- mean(yildiz$`En Düşük Puan`)
+ilgi_yildiz <- c("YILDIZ TEKNIK UNIVERSITESI", ogrenci_yildiz)
+```
+
+
+
+```{r}
+isveren_ilgi_uni <- read_excel("database/ilgi/isveren_ilgi_uni.xlsx")
+colnames(isveren_ilgi_uni)<- c("Universiteler", "Isveren.Ilgi.Endeksi")
+ilgi_uni<- rbind(ilgi_ankara, ilgi_bahcesehir, ilgi_bilgi, ilgi_bilkent, ilgi_bogazici, ilgi_dokuzeylul, ilgi_ege, ilgi_galatasaray, ilgi_gazi, ilgi_gyte, ilgi_hacettepe, ilgi_itu, ilgi_iu, ilgi_iyte, ilgi_koc, ilgi_kocaeli, ilgi_marmara, ilgi_odtu, ilgi_ozyegin, ilgi_sabanci, ilgi_turkalman, ilgi_uludag, ilgi_yildiz)
+colnames(ilgi_uni)<- c("Universiteler", "Ogrenci.Ilgi.Endeksi") 
+ilgi_uni<- merge(ilgi_uni, isveren_ilgi_uni, by='Universiteler')
+
+ilgi_uni$Universiteler <- as.character(ilgi_uni$Universiteler)
+
+ilgi_uni$Ogrenci.Ilgi.Endeksi <- as.numeric(ilgi_uni$Ogrenci.Ilgi.Endeksi)
+ilgi_uni$Ogrenci.Ilgi.Endeksi <- round(ilgi_uni$Ogrenci.Ilgi.Endeksi, digits = 1)
+ilgi_uni$s.i.i <- as.character(ilgi_uni[,2]/5)
+ilgi_uni$s.i.i.num <- as.numeric(ilgi_uni[,2]/5)
+
+ilgi_uni$Isveren.Ilgi.Endeksi <- as.numeric(ilgi_uni$Isveren.Ilgi.Endeksi)
+ilgi_uni$Isveren.Ilgi.Endeksi <- round(ilgi_uni$Isveren.Ilgi.Endeksi, digits = 1)
+ilgi_uni$e.i.i <- as.character(ilgi_uni[,3])
+ilgi_uni$e.i.i.num <- as.numeric(ilgi_uni[,3])
+
+
+
+
+```
+
+```{r, eval=FALSE}
+write_xlsx(ilgi_uni, "database\\ilgi\\ilgi_uni.xlsx")
+
+```
+
+
+## STUDENT INTEREST INDEX
+```{r}
+
+ilgi_uni %>%
+  group_by(Universiteler) %>%
+  ungroup() %>%
+  ggplot(aes(x=s.i.i.num, y=reorder(Universiteler, s.i.i.num) ,fill=s.i.i)) +
+  ylab("Universities") +
+  xlab("Student Interest Index") +
+  geom_col() +
+  scale_fill_viridis_d() +
+  guides(fill = guide_legend(reverse = TRUE) ) +
+     theme(
+        panel.grid = element_blank(),
+        panel.background = element_blank())
+```
+
+
+
+
+## EMPLOYER INTEREST INDEX
+```{r}
+ilgi_uni %>%
+  group_by(Universiteler) %>%
+  ungroup() %>%
+  ggplot(aes(x=e.i.i.num, y=reorder(Universiteler, e.i.i.num) ,fill=e.i.i)) +
+  ylab("Universities") +
+  xlab("Employer Interest Index") +
+  geom_col() +
+  scale_fill_viridis_d() +
+  guides(fill = guide_legend(reverse = TRUE) ) +
+     theme(
+        panel.grid = element_blank(),
+        panel.background = element_blank())
+```
+
+ilgi_uni %>%
+  group_by(Universiteler) %>%
+  ungroup() %>%
+  ggplot(aes(x=e.i.i.num, y=reorder(Universiteler, e.i.i.num) ,fill=e.i.i)) +
+  ylab("Universities") +
+  xlab("Employer Interest Index") +
+  geom_col() +
+  scale_fill_viridis_d() +
+  guides(fill = guide_legend(reverse = TRUE) ) +
+     theme(
+        panel.grid = element_blank(),
+        panel.background = element_blank())
+
+#########################################################################################
+
+
+
+```{r}
+bilgisayar<- read_excel("database/bolum/bilgisayar.xlsx")
+isveren_ilgi_bolum <- read_excel("database/ilgi/isveren_ilgi_bolum.xlsx")
+bilgisayar<- bilgisayar[c(1:25),]
+ogrenci_bilgisayar<- mean((bilgisayar$`En Düşük Puan`))
+ilgi_bilgisayar<- c("BILGISAYAR MUHENDISLIGI", ogrenci_bilgisayar, isveren_ilgi_bolum[13,2])
+```
+
+
+```{r}
+ekonomi<- read_excel("database/bolum/ekonomi.xlsx")
+ekonomi<- ekonomi[c(1:25),]
+ogrenci_ekonomi<- mean((ekonomi$`En Düşük Puan`))
+ilgi_ekonomi<- c("EKONOMI", ogrenci_ekonomi, isveren_ilgi_bolum[19,2])
+```
+
+
+```{r}
+elektronik<- read_excel("database/bolum/elektronik.xlsx")
+elektronik<- elektronik[c(1:25),]
+ogrenci_elektronik<- mean((elektronik$`En Düşük Puan`))
+ilgi_elektronik<- c("ELEKTRIK ELEKTRONIK MUHENDISLIGI", ogrenci_elektronik, isveren_ilgi_bolum[26,2])
+```
+
+
+```{r}
+endustri<- read_excel("database/bolum/endustri.xlsx")
+endustri<- endustri[c(1:25),]
+ogrenci_endustri<- mean((endustri$`En Düşük Puan`))
+ilgi_endustri<- c("ENDUSTRI MUHENDISLIGI", ogrenci_endustri, isveren_ilgi_bolum[9,2])
+```
+
+
+```{r}
+fizik<- read_excel("database/bolum/fizik.xlsx")
+fizik<- fizik[c(1:25),]
+ogrenci_fizik<- mean((fizik$`En Düşük Puan`))
+ilgi_fizik<- c("FIZIK MUHENDISLIGI", ogrenci_fizik, isveren_ilgi_bolum[172,2])
+```
+
+
+```{r}
+hukuk<- read_excel("database/bolum/hukuk.xlsx")
+hukuk<- hukuk[c(1:25),]
+ogrenci_hukuk<- mean((hukuk$`En Düşük Puan`))
+ilgi_hukuk<- c("HUKUK", ogrenci_hukuk, isveren_ilgi_bolum[221,2])
+```
+
+
+```{r}
+insaat<- read_excel("database/bolum/insaat.xlsx")
+insaat<- insaat[c(1:25),]
+ogrenci_insaat<- mean((insaat$`En Düşük Puan`))
+ilgi_insaat<- c("INSAAT MUHENDISLIGI", ogrenci_insaat, isveren_ilgi_bolum[205,2])
+```
+
+
+```{r}
+isletme<- read_excel("database/bolum/isletme.xlsx")
+isletme<- isletme[c(1:25),]
+ogrenci_isletme<- mean((isletme$`En Düşük Puan`))
+ilgi_isletme<- c("ISLETME", ogrenci_isletme, isveren_ilgi_bolum[24,2])
+```
+
+
+```{r}
+kimya<- read_excel("database/bolum/kimya.xlsx")
+kimya<- kimya[c(1:25),]
+ogrenci_kimya<- mean((kimya$`En Düşük Puan`))
+ilgi_kimya<- c("KIMYA", ogrenci_kimya, isveren_ilgi_bolum[118,2])
+```
+
+
+```{r}
+kimyamuh<- read_excel("database/bolum/kimyamuh.xlsx")
+kimyamuh<- kimyamuh[c(1:25),]
+ogrenci_kimyamuh<- mean((kimyamuh$`En Düşük Puan`))
+ilgi_kimyamuh<- c("KIMYA MUHENDISLIGI", ogrenci_kimyamuh, isveren_ilgi_bolum[32,2])
+```
+
+
+```{r}
+makine<- read_excel("database/bolum/makine.xlsx")
+makine<- makine[c(1:25),]
+ogrenci_makine<- mean((makine$`En Düşük Puan`))
+ilgi_makine<- c("MAKINE MUHENDISLIGI", ogrenci_makine, isveren_ilgi_bolum[66,2])
+```
+
+
+```{r}
+matematik<- read_excel("database/bolum/matematik.xlsx")
+matematik<- matematik[c(1:25),]
+ogrenci_matematik<- mean((matematik$`En Düşük Puan`))
+ilgi_matematik<- c("MATEMATIK", ogrenci_matematik, isveren_ilgi_bolum[213,2])
+```
+
+
+```{r}
+mbg<- read_excel("database/bolum/mbg.xlsx")
+mbg<- mbg[c(1:25),]
+ogrenci_mbg<- mean((mbg$`En Düşük Puan`))
+ilgi_mbg<- c("MOLEKULER BIYOLOJI VE GENETIK", ogrenci_mbg, isveren_ilgi_bolum[246,2])
+```
+
+
+```{r}
+mimarlik<- read_excel("database/bolum/mimarlik.xlsx")
+mimarlik<- mimarlik[c(1:25),]
+ogrenci_mimarlik<- mean((mimarlik$`En Düşük Puan`))
+ilgi_mimarlik<- c("MIMARLIK", ogrenci_mimarlik, isveren_ilgi_bolum[173,2])
+```
+
+
+```{r}
+psikoloji<- read_excel("database/bolum/psikoloji.xlsx")
+psikoloji<- psikoloji[c(1:25),]
+ogrenci_psikoloji<- mean((psikoloji$`En Düşük Puan`))
+ilgi_psikoloji<- c("PSIKOLOJI", ogrenci_psikoloji, isveren_ilgi_bolum[220,2])
+```
+
+
+```{r}
+ilgi_bolum <- c( ilgi_bilgisayar, ilgi_elektronik, ilgi_endustri,  ilgi_makine, ilgi_hukuk, ilgi_matematik,  ilgi_mimarlik, ilgi_kimya, ilgi_psikoloji, ilgi_mbg, ilgi_isletme,  ilgi_kimyamuh, ilgi_insaat, ilgi_fizik,  ilgi_ekonomi)
+ilgi_bolum<-matrix(ilgi_bolum, nrow=15, byrow=TRUE)
+colnames(ilgi_bolum)<- c("Bolumler","Ogrenci.Ilgi.Endeksi","Isveren.Ilgi.Endeksi")
+ilgi_bolum <- data.frame(ilgi_bolum)
+
+ilgi_bolum$Bolumler <- as.character(ilgi_bolum$Bolumler)
+
+ilgi_bolum$Ogrenci.Ilgi.Endeksi <- as.numeric(ilgi_bolum$Ogrenci.Ilgi.Endeksi)
+ilgi_bolum$Ogrenci.Ilgi.Endeksi <- round(ilgi_bolum$Ogrenci.Ilgi.Endeksi, digits = 1)
+ilgi_bolum$s.i.i <- as.character(ilgi_bolum[,2]*9/50)
+ilgi_bolum$s.i.i.num <- as.numeric(ilgi_bolum[,2]*9/50)
+
+ilgi_bolum$Isveren.Ilgi.Endeksi <- as.numeric(ilgi_bolum$Isveren.Ilgi.Endeksi)
+ilgi_bolum$Isveren.Ilgi.Endeksi <- round(ilgi_bolum$Isveren.Ilgi.Endeksi, digits = 1)
+ilgi_bolum$e.i.i <- as.character(ilgi_bolum[,3])
+ilgi_bolum$e.i.i.num <- as.numeric(ilgi_bolum[,3])
+
+
+
+
+```
+
+
+
+## STUDENT INTEREST INTEREST INDEX
+```{r}
+ilgi_bolum %>%
+  group_by(Bolumler) %>%
+  ungroup() %>%
+  ggplot(aes(x=s.i.i.num, y=reorder(Bolumler, s.i.i.num) ,fill=s.i.i)) +
+  ylab("Departments") +
+  xlab("Student Interest Index") +
+  geom_col() +
+  scale_fill_viridis_d() +
+  guides(fill = guide_legend(reverse = TRUE) ) +
+     theme(
+        panel.grid = element_blank(),
+        panel.background = element_blank())
+```
+
+
+## EMPLOYER INTEREST INDEX
+```{r}
+ilgi_bolum %>%
+  group_by(Bolumler) %>%
+  ungroup() %>%
+  ggplot(aes(x=e.i.i.num, y=reorder(Bolumler, e.i.i.num) ,fill=e.i.i)) +
+  ylab("Departments") +
+  xlab("Employer Interest Index") +
+  geom_col() +
+  scale_fill_viridis_d() +
+  guides(fill = guide_legend(reverse = TRUE) ) +
+   theme(
+        panel.grid = element_blank(),
+        panel.background = element_blank())
+```
+
+
+```{r, eval=FALSE}
+write_xlsx(ilgi_bolum, "database\\ilgi\\ilgi_bolum.xlsx")
+
+```
